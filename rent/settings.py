@@ -13,7 +13,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'django-insecure-1_&cu(ef6)#@bnnqtc5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['qera-production.up.railway.app']
 
 # Application definition
 INSTALLED_APPS = [
